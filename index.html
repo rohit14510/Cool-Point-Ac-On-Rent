@@ -31,9 +31,9 @@
     <header>
       <div class="container-fluid d-lg-block d-none">
         <!-- Top Header -->
-        <div class="row p-4">
+        <div class="row p-4 align-items-center">
           <div class="col-md-3">
-            <img src="assets/logos.png" alt="logo" width="40%" />
+            <img src="assets/logos.png" alt="logo" width="70%" />
           </div>
           <div class="col-md-9">
             <div class="row align-items-center">
@@ -169,7 +169,7 @@
       </div>
       <!-- ---------Mobile Header------- -->
       <div
-        class="container-fluid p-4 d-lg-none d-block bg-white sticky-top shadow"
+        class="container-fluid p-2 d-lg-none d-block bg-white sticky-top shadow"
       >
         <div class="row align-items-center">
           <div class="col-8">
@@ -245,7 +245,120 @@
         <div class="splide__track">
           <ul class="splide__list">
             <li class="splide__slide hero-slider">
-              <img src="assets/slide1.jpg" alt="Image 1" width="100%" />
+              <img src="assets/slider-1.jpg" alt="Image 1" width="100%" />
+              <div class="Slider-Form d-none d-lg-block">
+                <div
+                  class="form-container"
+                  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+                >
+                  <h6 class="subtitle">REQUEST A</h6>
+                  <h2 class="title">Free Quote</h2>
+
+                  <form action="send.php" method="post">
+                    <div class="row mb-2">
+                      <div class="col">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="name"
+                          name="name"
+                          required
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="mobile" class="form-label">Mobile</label>
+                        <input
+                          type="number"
+                          class="form-control"
+                          name="phone"
+                          id="mobile"
+                          required
+                        />
+                      </div>
+                    </div>
+
+                    <div class="row mb-2">
+                      <div class="col">
+                        <label for="email" class="form-label">Email</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          name="email"
+                          id="email"
+                          required
+                        />
+                      </div>
+                      <div class="col">
+                        <label for="service" class="form-label"
+                          >Select Service</label
+                        >
+                        <select
+                          class="form-select"
+                          id="service"
+                          name="service"
+                          required
+                        >
+                          <option value="" selected disabled>
+                            Choose a service
+                          </option>
+                          <option value="AC on Rent Service  ">
+                            AC on Rent Service
+                          </option>
+                          <option value="Sell Your Old AC Service ">
+                            Sell Your Old AC Service
+                          </option>
+                          <option value="AC Repair Service  ">
+                            AC Repair Service
+                          </option>
+                          <option value="AC gas filling Service">
+                            AC gas filling Service
+                          </option>
+                          <option value="AC Installation service">
+                            AC Installation service
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+
+                    <div class="mb-2">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="msg"
+                        rows="3"
+                        required
+                      ></textarea>
+                    </div>
+
+                    <button class="btn btn-custom" type="submit" name="submit">
+                      SEND MESSAGE
+                    </button>
+                  </form>
+                </div>
+              </div>
+              <div class="daesktop-caption d-none d-lg-block">
+                <h1 class="fw-bold">Flexible Rental Plans for Your Needs</h1>
+                <p>
+                  "Whether you need an AC for a day, a week, or an entire
+                  season, we’ve got you covered. Choose from our flexible rental
+                  plans designed to fit your requirements and budget."
+                </p>
+                <a href="contact.html" class="hero-btn text-dark">Contact Me</a>
+              </div>
+              <div class="caption d-block d-lg-none">
+                <h1 class="fw-bold">Flexible Rental Plans for Your Needs</h1>
+                <p>
+                  "Whether you need an AC for a day, a week, or an entire
+                  season, we’ve got you covered. Choose from our flexible rental
+                  plans designed to fit your requirements and budget."
+                </p>
+                <a href="contact.html" class="hero-btn text-dark">Contact Me</a>
+              </div>
+            </li>
+            <li class="splide__slide hero-slider">
+              <img src="assets/slide-02.jpg" alt="Image 1" width="100%" />
               <div class="Slider-Form d-none d-lg-block">
                 <div
                   class="form-container"
@@ -560,6 +673,7 @@
       </div>
       <div class="row">
         <div class="col-lg-4">
+        <a href="AConRentService.html" class="text-dark">
           <div class="text-center mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <img
               class="rounded service-image"
@@ -574,8 +688,10 @@
               comfortable without the expense of buying!
             </p>
           </div>
+        </a>
         </div>
         <div class="col-lg-4">
+         <a href="SellYourOldACService.html" class="text-dark">
           <div class="text-center mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <img
               class="rounded service-image"
@@ -590,8 +706,10 @@
               experience today!
             </p>
           </div>
+         </a>
         </div>
         <div class="col-lg-4">
+        <a href="ACRepairService.html" class="text-dark">
           <div class="text-center mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <img
               class="rounded service-image"
@@ -606,24 +724,28 @@
               hassle-free maintenance at affordable rates.
             </p>
           </div>
+        </a>
         </div>
         <div class="col-lg-4">
-          <div class="text-center mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
-            <img
-              class="rounded service-image"
-              src="assets/ser-6.jpg"
-              width="70%"
-              alt=""
-            />
-            <h4 class="fw-bold mt-3">AC Gas Filling Service</h4>
-            <p class="text-muted">
-              Ensure efficient cooling with Cool Point AC on Rent. We offer AC
-              gas filling services with expert technicians, quick service, and
-              affordable pricing. Stay cool always!
-            </p>
-          </div>
+       <a href="ACGasFillingService.html" class="text-dark">
+        <div class="text-center mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <img
+            class="rounded service-image"
+            src="assets/ser-6.jpg"
+            width="70%"
+            alt=""
+          />
+          <h4 class="fw-bold mt-3">AC Gas Filling Service</h4>
+          <p class="text-muted">
+            Ensure efficient cooling with Cool Point AC on Rent. We offer AC
+            gas filling services with expert technicians, quick service, and
+            affordable pricing. Stay cool always!
+          </p>
+        </div>
+       </a>
         </div>
         <div class="col-lg-4">
+        <a href="ACInstallationService.html" class="text-dark">
           <div class="text-center mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
             <img
               class="rounded service-image"
@@ -638,6 +760,7 @@
               at affordable rates. Enjoy efficient cooling instantly!
             </p>
           </div>
+        </a>
         </div>
       </div>
     </div>
@@ -1025,14 +1148,94 @@
         </div>
      </div>
     <!-- =========End Why-Choose Section========= -->
+ <!-- =========Start Branch Section========= -->
+  <div class="container-fluid p-100 Form-section">
+    <div class="row">
+      <h4 class=" main-topic"> Ac Services</h4>
+      <h6 class="fw-bold" style="color: #7a7a7a">In Gurgaon Localities</h6>
+      <div class="row">
+        <div class="">
+          <ul class="Service-area-list">
+            <li>
+              <p>Ac on Rent    in Sector 45 Gurgaon
 
+              </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Sector 47 Gurgaon
+
+              </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Sector 48 Gurgaon
+
+              </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Sector 49 Gurgaon
+
+              </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Sector 50 Gurgaon
+
+              </p>
+            </li>
+            <li>
+              <p>
+                  Ac on Rent    in Sector 56 Gurgaon
+                  
+                  </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Bhangel
+
+              </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Dlf Phase 3
+
+              </p>
+            </li>
+            <li>
+              <p>
+                  Ac on Rent    in Dlf Phase 5
+                  
+                  </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Sector 11 Gurgaon
+
+              </p>
+            </li>
+            <li>
+              <p>Ac on Rent    in Sector 57 Gurgaon
+
+              </p>
+            </li>
+            <li>
+              <p>
+                  Ac on Rent    in South City</p>
+            </li>
+         
+          </ul>
+        </div>
+      </div>
+   
+     
+      </div>
+    
+  
+    </div>
+  </div>
+   <!-- =========End Branch Section========= -->
     <!-- ========Footer-Section-Start======= -->
     <footer class="footer p-100">
       <div class="row">
         <div class="col-lg-3">
           <div>
             <img src="assets/logo.jpg" alt="logo" width="100%" />
-            <p>
+            <p class="mt-4">
               Cool Point AC on Rent is your trusted partner for affordable AC rentals, expert installation, and reliable maintenance services. We provide flexible rental plans, quick support, and top-quality cooling solutions to keep you comfortable. Whether you need an AC for your home, office, or event, we ensure a hassle-free experience. Stay cool with us!
             </p>
             <div>
@@ -1145,7 +1348,7 @@
               <div class="ms-3">
                 <div>
                   <h6 class="m-0">Address:</h6>
-                  <p>Shop No-3</p>
+                  <p>Shop No 3, Cool Point, Gate Number 2, Main Rd, Ardee City, Sector 52, Gurgaon, 122003</p>
                 </div>
               </div>
             </div>
