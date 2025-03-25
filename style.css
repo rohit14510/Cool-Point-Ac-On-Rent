@@ -366,11 +366,12 @@
   }
   .counter{
     font-size: 50px;
-    color:#ff3333 ;
+    color:#fff ;
   }
   .ProjecrCard h5{
     display: inline-block;
-    background-color: #fff;
+    color: #fff;
+    background-color: #077CEA;
     padding:5px 10px;
   }
  
