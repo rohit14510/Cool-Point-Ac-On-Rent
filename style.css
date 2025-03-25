@@ -808,3 +808,22 @@
   opacity: 1;
 }
 
+
+.service-card{
+  text-align: start;
+}
+
+.service-card li{
+  font-size: 15px;
+}
+
+
+
+.service-title {
+  font-size: 20px;
+  color: #2a77d7;
+  font-weight: bold;
+}
+
+
+
