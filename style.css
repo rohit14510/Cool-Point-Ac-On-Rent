@@ -602,3 +602,191 @@
     color: #fff;
   }
   /* ------End Footer Section---- */
+
+  /* ---About-Page-Start--- */
+  .service_Section {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .service_Section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .service_Section_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 32, 76, .5);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .service_Section_content {
+    color: #092a49;
+    text-align: start;
+    padding-left: 50px;
+  }
+  
+  .service_Section_content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+  
+  }
+  
+  .service_Section_content p {
+   
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    display:inline-block;
+    
+  }
+  @media (max-width: 768px) {
+    .service_Section {
+      position: relative;
+      width: 100%;
+      height: 150px; /* Adjust height as needed */
+      overflow: hidden;
+    }
+    .service_Section_content h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    
+    .service_Section_content p {
+    
+      margin-top: 5px;
+      padding: 4px 10px;
+      font-size: .8rem;
+      
+    }
+  }
+  
+    /* ---About-Page-End--- */
+    /* ---Contact-Page-Start--- */
+    .Form-section{
+      background-color:#FFFFFF;
+      background-image: url('assets/bg-03.jpg');
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    /* ---Contact-Page-End--- */
+      /* -----Ac On Rent Service-Page-Start----- */
+.list-group-item {
+  border: none;
+}
+.services-list {
+  position: relative;
+  padding-left: 0px;
+  border: 1px solid #f1f1f1;
+}
+
+/* Left side moving red line */
+.services-list .list-group-item {
+  position: relative;
+  border: none;
+  font-weight: 600;
+  padding-left: 20px;
+}
+
+.services-list .list-group-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3px;
+  height: 0;
+  background-color: #01204C;
+  transition: height 0.3s ease-in-out;
+}
+
+/* Hover effect: text red + left border animation */
+.services-list .list-group-item:hover a {
+  color: #077CEA;
+}
+
+.services-list .list-group-item:hover::before {
+  height: 80%;
+}
+
+/* Active effect: left border always visible */
+.services-list .list-group-item.active::before {
+  height: 80%;
+}
+
+.services-list .list-group-item a {
+  color: #01204C;
+  display: block;
+  padding: 10px 0;
+  transition: color 0.3s ease-in-out;
+}
+.contact-section {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+  background: url("assets/servicebg.jpg") no-repeat center center/cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 32, 76, .7);
+}
+
+.content {
+  position: absolute;
+  z-index: 2;
+}
+
+.icon {
+  font-size: 60px;
+  color: white;
+  margin-bottom: 10px;
+}
+.product-image-container {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.product-image-container img {
+  width: 100%;
+  transition: transform 0.5s, filter 0.5s;
+}
+
+.product-image-container:hover img {
+  transform: scale(1.1);
+  filter: brightness(70%);
+}
+
+.product-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 32, 76, .9);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.product-image-container:hover .overlay {
+  opacity: 1;
+}
+

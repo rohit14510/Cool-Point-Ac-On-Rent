@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Point Ac On Rent</title>
+    <link rel="icon" href="assets/favicon.jpg" type="image/x-icon" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- ========Header Start======= -->
+    <header>
+      <div class="container-fluid d-lg-block d-none">
+        <!-- Top Header -->
+        <div class="row p-4">
+          <div class="col-md-3">
+            <img src="assets/logos.png" alt="logo" width="40%" />
+          </div>
+          <div class="col-md-9">
+            <div class="row align-items-center">
+              <div class="col-md-4">
+                <div class="row align-items-center">
+                  <div class="col-md-2">
+                    <div class="topheader-icon">
+                      <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div>
+                      <p class="m-0 text-muted">Telephone</p>
+                      <h5>
+                        <a href="tel:+91 9311281686 " class="m-0 p-0 text-dark"
+                          >+91 9311281686</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="row align-items-center">
+                  <div class="col-md-2">
+                    <div class="topheader-icon">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-10">
+                    <div>
+                      <p class="m-0 text-muted">Email Address</p>
+                      <h5>
+                        <a
+                          href="mailto:coolpointaconrent@gmail.com"
+                          class="m-0 p-0 text-dark"
+                          >coolpointaconrent@gmail.com</a
+                        >
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="text-center">
+                  <a href="Contact.html" class="topheader-btn text-white"
+                    >Request A Quote</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Navigation Header -->
+
+        <div class="row navigation-header">
+          <div class="col-md-12" style="background-color: #01204c">
+            <div>
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">ABOUT</a>
+                </li>
+                <!-- Services Dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="servicesDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    SERVICES
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                    <li>
+                      <a class="dropdown-item" href="AConRentService.html"
+                        ><span> AC on Rent Service </span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="SellYourOldACService.html"
+                        ><span>Sell Your Old AC Service</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="ACRepairService.html"
+                        ><span>AC Repair Service</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="ACGasFillingService.html"
+                        ><span>AC Gas Filling Service</span></a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="ACInstallationService.html"
+                        ><span>AC Installation Service</span></a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Gallery.html">GALLERY</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">CONTACTS</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 bg-dark">
+          <div class="d-flex justify-content-center social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div> -->
+        </div>
+      </div>
+      <!-- ---------Mobile Header------- -->
+      <div
+        class="container-fluid p-4 d-lg-none d-block bg-white sticky-top shadow"
+      >
+        <div class="row align-items-center">
+          <div class="col-8">
+            <div><img src="assets/logos.png" alt="logo" width="100%" /></div>
+          </div>
+          <div class="col-4">
+            <div class="text-end mobile-menuicon">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu">
+        <div class="close-menu">&times;</div>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="About.html">ABOUT</a></li>
+
+          <!-- Services Dropdown -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="servicesDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              SERVICES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li>
+                <a class="dropdown-item" href="AConRentService.html"
+                  ><span> AC on Rent Service </span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="SellYourOldACService.html"
+                  ><span>Sell Your Old AC Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="ACRepairService.html"
+                  ><span>AC Repair Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="ACGasFillingService.html"
+                  ><span>AC Gas Filling Service</span></a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="ACInstallationService.html"
+                  ><span>AC Installation Service</span></a
+                >
+              </li>
+            </ul>
+          </li>
+          <li><a href="Gallery.html">GALLERY</a></li>
+
+          <li><a href="Contact.html">CONTACTS</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- ========Header End======= -->
+    <!-- =======START HERO - SECTION=========== -->
+    <div class="conatiner-fluid p-0">
+      <div class="row service_Section p-0">
+        <div class="service_Section_overlay p-0">
+          <div class="service_Section_content">
+            <h2 class="text-white text-uppercase">Gallery</h2>
+            <p>
+              <span style="color: #077cea">Home </span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                color="#ffffff"
+                fill="none"
+              >
+                <path
+                  d="M20.0001 11.9998L4.00012 11.9998"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M15.0003 17C15.0003 17 20.0002 13.3176 20.0002 12C20.0002 10.6824 15.0002 7 15.0002 7"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span class="text-white text-uppercase"> Gallery</span>
+            </p>
+          </div>
+        </div>
+        <img
+          class="p-0"
+          src="assets/slide1.jpg"
+          width="100%"
+          alt="Service Background"
+        />
+      </div>
+    </div>
+    <!-- ===========End Hero Section========== -->
+  <!-- =========Start Gallery Section========= -->
+  <div class="container-fluid p-100">
+    <div class="row">
+      <div class="text-center" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+        <h5 class="main-topic">Gallery</h5>
+        <h2 class="secondry-title">Our Service Gallery</h2>
+      </div>
+    </div>
+    <div class="row"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+      <div class="col-lg-4 mt-4">
+        <div>
+          <img src="assets/gallery-1.jpg" width="100%" alt="gallery-img" />
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div>
+          <img src="assets/gallery-2.jpg" width="100%" alt="gallery-img" />
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div>
+          <img src="assets/gallery-3.jpg" width="100%" alt="gallery-img" />
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div>
+          <img src="assets/gallery-4.jpg" width="100%" alt="gallery-img" />
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div>
+          <img src="assets/gallery-5.jpg" width="100%" alt="gallery-img" />
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div>
+          <img src="assets/ser-3.jpg" width="100%" alt="gallery-img" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- =========End Gallery Section========= -->
+      <!-- =========Start Contact Section========= -->
+      <div class="container-fluid p-100 Contact-section">
+        <div class="text-start"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <h1 class="text-white fw-bold">Time for a New System?</h1>
+          <h5 style="color: #077CEA;">
+            Call an Air Supply today for a quote on your new home comfort system.
+          </h5>
+        </div>
+        <div class="d-flex mt-4"  data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
+          <a class="learn-btn" href="index.html">Learn More</a>
+          <a class="contact-btn" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+      <!-- =========End Contact Section========= -->
+
+
+    <!-- ========Footer-Section-Start======= -->
+    <footer class="footer p-100">
+      <div class="row">
+        <div class="col-lg-3">
+          <div>
+            <img src="assets/logo.jpg" alt="logo" width="100%" />
+            <p>
+              Cool Point AC on Rent is your trusted partner for affordable AC
+              rentals, expert installation, and reliable maintenance services.
+              We provide flexible rental plans, quick support, and top-quality
+              cooling solutions to keep you comfortable. Whether you need an AC
+              for your home, office, or event, we ensure a hassle-free
+              experience. Stay cool with us!
+            </p>
+            <div>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <div>
+            <h4 class="footer-link">QUICK LINKS</h4>
+            <ul class="footer-navlink">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="About.html">About</a></li>
+              <li><a href="Gallery.html">Gallery</a></li>
+
+              <li><a href="Contact.html">Contacts</a></li>
+              <li><a href="policy.html">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms & Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div>
+            <h4 class="footer-link">Services</h4>
+            <ul class="footer-navlink">
+              <li>
+                <a href="AConRentService.html"> AC on Rent Service </a>
+              </li>
+              <li>
+                <a href="SellYourOldACService.html"
+                  >Sell Your Old AC Service
+                </a>
+              </li>
+              <li>
+                <a href="ACRepairService.html">AC Repair Service</a>
+              </li>
+              <li>
+                <a href="ACGasFillingService.html">AC Gas Filling Service</a>
+              </li>
+              <li>
+                <a href="ACInstallationService.html">AC Installation Service</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div>
+            <h4 class="footer-link">Contact Us</h4>
+            <div class="d-flex mt-2">
+              <div class="">
+                <div class="d-flex justify-content-start">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-headphones-simple"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-2">
+                <div>
+                  <h6 class="m-0">Phone:</h6>
+                  <a href="tel:+91 9311281686 " class="text-white"
+                    >+91 9311281686</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div class="">
+                <div class="d-flex justify-content-start">
+                  <div class="footer-icon">
+                    <i class="fa-regular fa-envelope"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-3">
+                <div class="text-start">
+                  <h6 class="m-0">E-mail:</h6>
+                  <a
+                    href="mailto:coolpointaconrent@gmail.com"
+                    class="text-white"
+                    >coolpointaconrent@gmail.com
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex mt-2">
+              <div class="">
+                <div class="d-flex justify-content-start">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="ms-3">
+                <div>
+                  <h6 class="m-0">Address:</h6>
+                  <p>Shop No-3</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="text-center">
+        <p>
+          © Copyright 2025 | Powered by Cool Point Ac On Rent || Designed By
+          <a href="https://standupstartups.com/" class="text-white"
+            >Standup Startups</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <!-- ========Footer-Section-End======= -->
+    <div class="what">
+      <a
+        href="https://wa.me/919311281686?text=Hello Cool Point Ac On Rent ."
+        target="_blank"
+        ><i class="fa-brands fa-whatsapp"></i
+      ></a>
+      <a href="tel:+91 9311281686 ">
+        <i class="fa-solid fa-phone"></i>
+      </a>
+    </div>
+
+    <!--===Whatsapp-Section-End===-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
