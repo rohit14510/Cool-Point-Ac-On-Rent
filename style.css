@@ -52,6 +52,14 @@
     font-weight: 700;
     font-size: 40px;
   }
+  @media (max-width: 768px) {
+    .secondry-title{
+      color: #01204C;
+      font-weight: 700;
+      font-size: 30px;
+    }
+  }
+
   a {
     text-decoration: none;
  
@@ -124,7 +132,7 @@
     cursor: pointer;
   }
   .dropdown-menu {
-    background-color: #313437 !important;
+    background-color: #01204C !important;
   }
   .dropdown-item {
     color: #fff !important;
@@ -357,6 +365,7 @@
     }
   }
   .counter{
+    font-size: 50px;
     color:#ff3333 ;
   }
   .ProjecrCard h5{
@@ -364,6 +373,7 @@
     background-color: #fff;
     padding:5px 10px;
   }
+ 
 /* --------Counetr Section End---------- */
   /* --------Service Section Start---------- */
   .Service-Section{
@@ -381,7 +391,16 @@
     border-radius: 10px 10px 10px 10px;
     transition: transform 0.5s ease;
   }
-  
+  @media (max-width: 768px) {
+    .service-image {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      object-position: center center;
+      border-radius: 10px 10px 10px 10px;
+      transition: transform 0.5s ease;
+    }
+  }
   .service-image:hover {
     transform: scale(0.9);  /* Zoom-Out Effect */
   }
