@@ -392,6 +392,11 @@
     border-radius: 10px 10px 10px 10px;
     transition: transform 0.5s ease;
   }
+  .Readbtn{
+    background-color: #01204C;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
   @media (max-width: 768px) {
     .service-image {
       width: 250px;

@@ -15,8 +15,6 @@ if(isset($_POST['submit'])) {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
-        $movefrom = $_POST['movefrom'];
-        $moveto = $_POST['moveto'];
         $service = $_POST['service'];
         $msg = $_POST['msg'];
         
@@ -30,11 +28,11 @@ $mail->Password = 'Standup@123';
 $mail->SMTPSecure = 'tls';
 $mail->Port     = 587;
 // Sender info 
-$mail->setFrom('info@ompackers.in', 'Cool Point Ac On Rent '); 
-$mail->addReplyTo('info@ompackers.in', 'Test Email'); 
+$mail->setFrom('info@coolpointac.co.in', 'Cool Point Ac On Rent '); 
+$mail->addReplyTo('info@coolpointac.co.in', 'Test Email'); 
  
 // Add a recipient 
-$mail->addAddress('rohitpancholi14510@gmail.com'); 
+$mail->addAddress('coolpointaconrent@gmail.com'); 
  
 // Add cc or bcc  
 // $mail->addCC('cc@example.com'); 
@@ -52,8 +50,6 @@ $mailContent = '
     <p>Name :'.$name.'</p> 
     <p>Phone :'.$phone.'</p> 
     <p>Email :'.$email.'</p> 
-    <p>Movefrom :'.$movefrom.'</p> 
-    <p>Moveto :'.$moveto.'</p> 
     <p>Service :'.$service.'</p>
     <p>Message :'.$msg.'</p> 
     <p>Thanks and Regards</p>  
@@ -68,7 +64,7 @@ $mail->headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 if(!$mail->send()){ ?>
     <script>
     alert("Message could not be sent");
-    window.location.href="https://ompackers.in/thank-you.html";
+    window.location.href="https://coolpointac.co.in/thank-you.html";
     </script>
     // 
     <?php
@@ -80,7 +76,7 @@ if(!$mail->send()){ ?>
              
             //   if( $_GET['status'] == 'success') {
             //      alert("Mail Send Successfully");
-                 window.location.href="https://ompackers.in/thank-you.html";
+                 window.location.href="https://coolpointac.co.in/thank-you.html";
             //   }
             //   else{
             //       echo 'alert("no good");';
